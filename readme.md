@@ -4,29 +4,8 @@
 
 This project called `chillMarGo` is a implementation of classic rate limiter built in Go using the `Token Bucket Algorithm`.
 
-## Project Structure
 
-```
-chillMarGO/
-├── cmd/
-│   └── main.go
-├── internal/
-│   ├── handlers/
-│   │   └── resource.go
-│   ├── middleware/
-│   │   └── middleware.go
-│   ├── rate-limiter/
-│   │   ├── rate-limiter.go
-│   │   └── rate-limiter_integration_test.go
-│   ├── types/
-│   │   └── api.go
-│   └── utils/
-│       └── utils.go
-├── LICENSE
-└── readme.md
-```
-
-## Algorithm Flow
+##  Flow
 
 ![Token Bucket Algorithm Flow](./chillmarGo.svg)
 
