@@ -39,11 +39,6 @@ http.HandleFunc("/v1/resource", rateLimited)
 curl http://localhost:8080/v1/resource
 ```
 
-## Response
-
-Success (200): `{"success": true, "data": "You will get resource"}`  
-Rate Limited (429): `{"success": false, "error": "Too many requests.."}`
-
 ## License
 
 MIT - see `LICENSE`.
